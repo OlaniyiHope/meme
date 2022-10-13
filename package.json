@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d build",
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
-    "build": "react-scripts build"
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,7 @@
     "Node",
     "Express"
   ],
-  "author": "Hope Olaniyi",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
+ 
   "homepage": "",
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
